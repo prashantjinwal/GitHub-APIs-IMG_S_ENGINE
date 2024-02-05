@@ -1,0 +1,142 @@
+
+/* body{
+    background-color: #023e8a;
+}
+#user{
+    padding: 0.8em 0 0.8em 0.8em;
+    width: 20em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+#search-btn{
+    padding: 0.8em;
+    width: 6em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    margin-left: 0.5em;
+    cursor: pointer;
+
+}
+.search-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;700;900&family=Urbanist:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #0d192b;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  /* margin: 10rem; */
+}
+
+.search-input {
+  width: 100%;
+  margin: 5rem auto 0 auto;
+  text-align: center;
+}
+
+input {
+  width: 25rem;
+  height: 5rem;
+  border: #81a7e0 solid 0.4rem;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  margin-right: 2rem;
+  outline: none;
+}
+
+button {
+  padding: 1rem 2.4rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.main_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+  padding: 6rem 0;
+  justify-content: center;
+}
+
+.card {
+  min-width: 20rem;
+  min-height: 20rem;
+  background-color: #14253d;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: all 0.3s linear;
+
+  &:hover {
+    transform: translateY(-2rem);
+    box-shadow: rgba(224, 222, 233, 0.15) 0px 48px 100px 0px;
+  }
+}
+
+img {
+  max-width: 100%;
+  width: 22rem;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.username {
+  padding-top: 1rem;
+  color: #fff;
+}
+
+hr {
+  height: 0.01rem;
+  border: 0.1rem solid white;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0 0 0;
+}
+
+.card-footer img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 0.2rem solid white;
+}
+
+.empty-msg {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
