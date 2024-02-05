@@ -1,4 +1,4 @@
-// //  --- UNCOMAND BEFOR RUN --- OR --- YOU CAN TRANSPILE TS FILE ALSO
+// //  --- UNCOMMENT BEFOR RUN --- OR --- YOU CAN TRANSPILE TS FILE ALSO
 
 // "use strict";
 // const getUsename = document.querySelector("#user");
